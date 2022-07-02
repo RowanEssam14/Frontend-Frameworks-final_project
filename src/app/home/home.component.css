@@ -1,0 +1,62 @@
+.display-picture{
+    background:url(/assets/img/changed1.jpg);
+    width: 98%;
+    height: 647px;
+    background-size: initial;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 95px;
+    
+}
+.p-tag{
+   background-color: #b6a69e;
+   color: #fff;
+   padding: 5px 10px;
+   font-size: 14px; 
+   
+}
+/*---for all the div block*/
+.element{
+    margin-top: 95px;
+    padding-left: 20px;
+    /*for the form*/
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.lorem{
+    color: #acacac;
+    width: 100%;
+    padding: 5px 10px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+h6{
+    padding-top: 65px;
+}
+
+.form-control{
+    display:inline;
+    width: 70%;
+    padding:10px 20px;
+    border-radius: 0;
+
+
+
+}
+/*for the button*/
+
+form .btn-warning{
+    min-height: 46px;
+    margin-left: 10px;
+    font-weight: 500;
+    border-radius: 0;
+    border: 0;
+    margin-right: 0;
+
+}
+form{
+    width: auto;
+}

@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+@import"../node_modules/bootstrap/dist/css/bootstrap.css";
+body{
+    margin:0;
+    padding:0;
+    font-size: 20px;
+}
+p{
+    margin:0;
+}
+
+a, a:hover{
+    text-decoration:none;
+    color: black;
+   
+}
+.p-cursor{
+    cursor:pointer;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.p-flex{
+    display: flex;
+}
+
+.p-flex-align-center{
+    align-items: center;
+}
+
+.p-flex-jusify-sb{
+    justify-content: space-between;
+}
+
+.p-wrapper{
+    position:relative;
+}
+.p-wrapper::before{
+    content: '';
+    background:#f8b865;
+    height: 100vh;
+    width: 30vw;
+    position:absolute;
+    z-index: -1;
+}
+.readmore{
+    color: black;
+    font-weight: 600;
+}
+/*for animation*/
+.readmore img{
+    transition: all .5s;
+    transform: translateX(0);
+}
+.readmore:hover img{
+    transform: translateX(5px);
+}
